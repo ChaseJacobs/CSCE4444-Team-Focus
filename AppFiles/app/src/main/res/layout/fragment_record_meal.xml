@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.bhastings.workoutwithfriends.RecordMealFragment"
+    android:background="@drawable/food_background"
+    android:weightSum="1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:orientation="vertical"
+        android:layout_width="194dp"
+        android:layout_height="75dp"
+        android:background="@drawable/eating"
+        android:layout_weight="0.60"
+        android:layout_gravity="center_horizontal"></ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textSize="36sp"
+        android:textAlignment="center"
+        android:background="@drawable/what_meal"
+        android:layout_weight="0.16" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:id="@+id/mealSpinner"
+        android:layout_height="50dp"
+        android:spinnerMode="dropdown"
+        android:entries="@array/Meals"
+        style="@android:style/Widget.Spinner.DropDown" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="36dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/tvHeading2"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:background="@drawable/how_many_calories" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+
+        android:id="@+id/etCaloriesEntered" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <Button
+        android:text="Submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bSubmitMeal"
+        style="@android:style/Widget.Button.Inset" />
+
+</LinearLayout>

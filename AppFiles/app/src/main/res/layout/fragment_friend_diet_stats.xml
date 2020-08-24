@@ -1,0 +1,71 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bhastings.workoutwithfriends.FriendDietStatsFragment"
+    android:background="@drawable/food_background" >
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <com.jjoe64.graphview.GraphView
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:id="@+id/graphWorkout"
+            android:layout_height="300dp">
+
+        </com.jjoe64.graphview.GraphView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:text="          Here are your diet stats for today"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvMessage"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent4"
+            android:textStyle="bold"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <TextView
+            android:text=" Average Calorie Intake (Today)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvAvgDailyIntake"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvFriendAverageIntakeValue"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:text="Back to Profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bBackToFriendProfile"
+            style="@android:style/Widget.Button.Inset" />
+    </LinearLayout>
+
+</ScrollView>

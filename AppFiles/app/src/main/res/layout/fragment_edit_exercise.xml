@@ -1,0 +1,110 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bhastings.workoutwithfriends.ProfileFragment"
+    android:background="@drawable/weights_background">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"><![CDATA[
+
+        />
+
+        ]]>
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/ivNewWorkoutImage" />
+
+        <Button
+            android:text="Upload Photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bUploadPhoto" />
+
+        <TextView
+            android:text="             Exercise Information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvExerciseHeader"
+            android:textSize="24sp"
+            android:textColor="@color/colorAccent4"
+            />
+
+        <TextView
+            android:text="___________________________________________________________"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView54"
+            android:textColor="@color/colorAccent1"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:inputType="number"
+            android:ems="7"
+            android:id="@+id/etRepCount"
+            android:hint="Reps" />
+
+        <TextView
+            android:text="___________________________________________________________"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView51"
+            android:textColor="@color/colorAccent1"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="7"
+            android:id="@+id/etSetCount"
+            android:hint="Sets" />
+
+        <TextView
+            android:text="___________________________________________________________"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView52"
+            android:textColor="@color/colorAccent1"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="7"
+            android:id="@+id/etWeight"
+            android:hint="Weight" />
+
+        <TextView
+            android:text="___________________________________________________________"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView53"
+            android:textColor="@color/colorAccent1"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="7"
+            android:id="@+id/etTime"
+            android:hint="Exercise Time Lenth (minutes)" />
+
+        <Button
+            android:text="Save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bSave" />
+
+
+    </LinearLayout>
+</ScrollView>

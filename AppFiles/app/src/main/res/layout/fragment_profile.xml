@@ -1,0 +1,174 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bhastings.workoutwithfriends.ProfileFragment"
+    android:background="@drawable/weights_background">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:id="@+id/ivProfilePic"
+            android:src="@drawable/no_pic" />
+
+        <Button
+            android:text="Upload Photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bUploadPicture"
+            style="@android:style/Widget.Button.Inset" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:text="Edit Profile Information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvEditProfile"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent5"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:layout_gravity="left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:textSize="14sp"
+            android:id="@+id/etName" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvName"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:layout_gravity="left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Age:"
+            android:textSize="14sp"
+            android:id="@+id/etAge" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvAge"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:layout_gravity="left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Weight:"
+            android:textSize="14sp"
+            android:id="@+id/etWeight" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvWeight"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:layout_gravity="left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Height:"
+            android:textSize="14sp"
+            android:id="@+id/etHeight" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvHeight"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:layout_gravity="left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bio:"
+            android:textSize="14sp"
+            android:id="@+id/etBio" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvBio"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:layout_gravity="left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Workouts:"
+            android:textSize="14sp"
+            android:id="@+id/etWorkouts" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:id="@+id/lvProfileWorkouts"
+            android:layout_height="350dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:text="Followers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView16" />
+
+        <Button
+            android:text="View Your Followers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bYourFollowers"
+            style="@android:style/Widget.Button.Inset" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+    </LinearLayout>
+</ScrollView>

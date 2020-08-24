@@ -1,0 +1,99 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.bhastings.workoutwithfriends.AddWorkoutFragment"
+    style="@android:style/Widget.DeviceDefault.Light.ScrollView"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:clipToPadding="true"
+    android:background="@drawable/weights_background">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"    >
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <TextView
+            android:text="Track Your Workout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView66"
+            android:textColor="@color/colorAccent1"
+            android:textStyle="bold"
+            android:textSize="17pt"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <TextView
+        android:text="What workout did you do?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvMessage"
+        android:textSize="18sp"
+        android:textAlignment="center" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sAddWorkoutList"
+        style="@android:style/Widget.Spinner.DropDown"
+
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <Button
+        android:text="Submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bSubmit"
+        style="@android:style/Widget.Button.Inset" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="261dp"
+            app:srcCompat="@drawable/runner"
+            android:id="@+id/imageView5" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+        android:text="Go for a Run!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvHeading2"
+        android:textSize="30sp"
+        android:textAlignment="center" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <Button
+        android:text="GO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        style="@android:style/Widget.Button.Inset" />
+    </LinearLayout>
+</ScrollView>

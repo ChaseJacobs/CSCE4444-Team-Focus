@@ -1,0 +1,121 @@
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.example.bhastings.workoutwithfriends.SettingsFragment"
+        android:background="@drawable/weights_background">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context="com.example.bhastings.workoutwithfriends.SettingsFragment"
+            android:background="@drawable/weights_background">
+
+            <!-- TODO: Update blank fragment layout -->
+
+            <TextView
+                android:text="Settings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView28"
+                android:textAlignment="center"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/background_dark"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
+
+            <TextView
+                android:text="Change Password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView30"
+                android:textSize="14sp"
+                android:textAllCaps="false"
+                android:textStyle="normal|bold"
+                android:textColor="@color/colorAccent1" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/etCurrentPassword"
+                android:hint="Current Password"
+                android:textColorHint="@color/colorAccent1"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/etChangePassword1"
+                android:hint="New Password"
+                android:textColorHint="@color/colorAccent1"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/etChangePassword2"
+                android:hint="Confirm Password"
+                android:textColorHint="@color/colorAccent1"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="11dp" />
+
+            <Button
+                android:text="Change Password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bChangePassword"
+                style="@android:style/Widget.Button.Inset" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="27dp" />
+
+            <TextView
+                android:text="Change Username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView31"
+                android:textSize="14sp"
+                android:textAllCaps="false"
+                android:textStyle="normal|bold"
+                android:textColor="@color/colorAccent1" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/etNewUsername"
+                android:hint="New Username"
+                android:textColorHint="@color/colorAccent1"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="11dp" />
+
+            <Button
+                android:text="Change Username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bChangeUsername"
+                style="@android:style/Widget.Button.Inset" />
+
+        </LinearLayout>
+
+    </ScrollView>

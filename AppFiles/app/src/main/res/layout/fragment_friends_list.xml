@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.bhastings.workoutwithfriends.FriendsListFragment"
+    android:background="@drawable/weights_background"
+    android:backgroundTintMode="screen">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:text="      All Users"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView68"
+        android:textSize="24pt"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent1"/>
+
+    <TextView
+        android:text="Below is a list of all users who are signed up with Workout With Friends. Feel free to search for names you wish to connect with!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView33"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent5"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <SearchView
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/svUsers"
+        android:theme="@style/Widget.AppCompat.SearchView"
+        android:background="@color/colorPrimary"
+        android:layout_gravity="center_horizontal">
+
+    </SearchView>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:id="@+id/lvUserList" />
+
+
+</LinearLayout>

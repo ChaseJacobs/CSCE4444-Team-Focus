@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.bhastings.workoutwithfriends.MealSubmissionConformationFragment"
+    android:background="@drawable/food_background">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:text="Diet Submission Complete!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView72"
+        android:textSize="23pt"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent5"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:weightSum="1">
+
+        <Space
+            android:layout_height="match_parent"
+            android:layout_width="25dp" />
+
+        <ImageView
+            android:text="Button"
+            android:layout_height="332dp"
+            android:id="@+id/button"
+            android:textAlignment="center"
+            android:layout_gravity="center_vertical"
+            android:layout_width="100dp"
+            android:layout_weight="0.99"
+            android:src="@drawable/conversions_icon_large"/>
+
+        <Space
+            android:layout_height="match_parent"
+            android:layout_width="25dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

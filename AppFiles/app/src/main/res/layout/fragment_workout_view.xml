@@ -1,0 +1,298 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bhastings.workoutwithfriends.ProfileFragment"
+    android:background="@drawable/weights_background">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        />
+
+        <TextView
+            android:text="Workout Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvWorkoutName"
+            android:textAlignment="center"
+            android:textSize="35sp"
+            android:textStyle="normal|bold"
+            android:textColor="@color/colorAccent5"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            app:srcCompat="@drawable/silhouette_pushup"
+            android:id="@+id/imageView3" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="Edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bEditWorkout"
+                android:layout_weight="1"
+                style="@android:style/Widget.Button.Inset" />
+
+            <Button
+                android:text="Delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bDeleteWorkout"
+                android:layout_weight="1"
+                style="@android:style/Widget.Button.Inset" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Created by:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/creator"
+                android:layout_weight="0.05"
+                android:textColor="@color/colorAccent4"
+                android:textSize="10pt"/>
+
+            <TextView
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvOwner"
+                android:textSize="14sp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:text="Exercise 1:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView17" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/tvViewExercise1"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:text="Time 1:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView23" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/tvViewTime1"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:text="Exercise 2:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView18" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/tvViewExercise2"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:text="Time 2:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView24" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/tvViewTime2"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:text="Exercise 3:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView19" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/tvViewExercise3"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:text="Time 3:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView25" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/tvViewTime3"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:text="Exercise 4:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView20" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/tvViewExercise4"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:text="Time 4:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView26" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/tvViewTime4"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:text="Exercise 5:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView21" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/tvViewExercise5"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:text="Time 5:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView27" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/tvViewTime5"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:text="Exercise 6:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView22" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/tvViewExercise6"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:text="Time 6:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView29" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/tvViewTime6"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <Button
+            android:text="Back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bWorkoutViewBack"
+            style="@android:style/Widget.Button.Inset" />
+
+
+    </LinearLayout>
+</ScrollView>

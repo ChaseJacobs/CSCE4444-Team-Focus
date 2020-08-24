@@ -1,0 +1,91 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bhastings.workoutwithfriends.ProfileFragment"
+    android:background="@drawable/treadmills1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+         />
+
+        <TextView
+            android:text="Welcome to the Activities Center!"
+            android:textColor="@color/colorAccent1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvMessage1"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:text="Create your own workout or add exercises for your workouts!"
+            android:textColor="@color/colorAccent1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvMessage2"
+            android:textSize="18sp"
+            android:textAlignment="center" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="113dp"
+            app:srcCompat="@drawable/workouts"
+            android:id="@+id/imageView11" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <Button
+            android:text="New Workout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bNewWorkout"
+            style="@android:style/Widget.Button.Inset"
+            android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:text="Your Workouts:"
+            android:textColor="@color/colorAccent1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvWorkoutsHeader"
+            android:textStyle="normal|bold" />
+
+
+        <ListView
+            android:id="@+id/lvWorkouts"
+            android:layout_height="249dp"
+            android:layout_gravity="center_horizontal"
+            android:cacheColorHint="@color/colorAccent1"
+            android:background="@color/colorAccent1"
+            android:layout_width="300dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,183 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bhastings.workoutwithfriends.DietFragment"
+    android:background="@drawable/food_background">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.19"
+                android:layout_width="50dp">
+
+                <TextView
+                android:text="Breakfast"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvBreakfastHeader"
+                android:textSize="38sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent5"    />
+
+                <TextView
+                android:text="Total Calories"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvSubHeader1"
+                 />
+
+                <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="50dp"
+                  android:inputType="number"
+                  android:ems="10"
+                  android:id="@+id/tvBreakfastCalories"
+                    android:textSize="36sp" />
+
+                <Space
+                   android:layout_width="match_parent"
+                   android:layout_height="70dp" />
+
+                <TextView
+                   android:text="Lunch"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/tvLunchHeader"
+                   android:textSize="38sp"
+                    android:textStyle="bold"
+                   android:textColor="@color/colorAccent5" />
+
+            <TextView
+                android:text="Total Calories"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvSubHeader2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/tvLunchCalories"
+                    android:textSize="36sp" />
+
+                <Space
+                android:layout_width="match_parent"
+                android:layout_height="70dp" />
+
+                <TextView
+                android:text="Dinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvDinnerHeader"
+                android:textSize="38sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent5"    />
+
+            <TextView
+                android:text="Total Calories"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvSubHeader3" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/tvDinnerCalories"
+                    android:layout_height="50dp"
+                    android:textSize="36sp" />
+
+                <Space
+                android:layout_width="match_parent"
+                android:layout_height="70dp" />
+
+            <TextView
+                android:text="Snacks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvSnacksHeader"
+                android:textSize="38sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent5" />
+
+            <TextView
+                android:text="Total Calories"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView11" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/tvSnackCalories"
+                android:textSize="36sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="70dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.19">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="172dp"
+                    android:id="@+id/ivBreakfast"
+                    android:src="@drawable/breakfast"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="172dp"
+                    android:id="@+id/ivLunch"
+                    android:src="@drawable/lunch"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="172dp"
+                    android:id="@+id/ivDinner"
+                    android:src="@drawable/dinner"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="172dp"
+                    android:id="@+id/ivSnacks"
+                    android:src="@drawable/snacks"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:text="Back to Diet Menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bBackToDiet"
+            android:layout_weight="1"
+            style="@android:style/Widget.Button.Inset" />
+
+    </LinearLayout>
+</ScrollView>

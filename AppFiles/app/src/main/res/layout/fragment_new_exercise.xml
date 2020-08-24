@@ -1,0 +1,118 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bhastings.workoutwithfriends.ProfileFragment"
+    android:background="@drawable/weights_background">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        />
+
+        <TextView
+            android:text="New Exercise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvHeader"
+            android:textAlignment="center"
+            android:textSize="33sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent5"/>
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/ivNewWorkoutImage" />
+
+        <Button
+            android:text="Upload Photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bUploadExercisePhoto" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:text="Provide your workout with a name, choose the type, and fill in data that applies."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvExerciseInfo" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/etExerciseName"
+            android:hint="Name" />
+
+        <TextView
+            android:text="Type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:id="@+id/sExerciseType"
+            android:layout_height="40dp"
+            android:entries="@array/ExerciseTypes"
+            android:spinnerMode="dropdown"
+            style="@android:style/Widget.Spinner.DropDown" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/etExerciseTime"
+            android:hint="Time (minutes)" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/etExerciseDistance"
+            android:hint="Distance  (miles)" />
+
+        <TextView
+            android:text="Muscle Group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/sExerciseMuscleGroup"
+            style="@android:style/Widget.Spinner.DropDown"
+            android:entries="@array/MuscleGroups" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/etExerciseWeight"
+            android:hint="Weight (lbs)" />
+
+        <Button
+            android:text="Save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bSaveNewExercise" />
+
+
+    </LinearLayout>
+</ScrollView>

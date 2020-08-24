@@ -1,0 +1,157 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.bhastings.workoutwithfriends.HomeFragment"
+    android:background="@drawable/weights_background"
+    tools:backgroundTintMode="screen"
+    android:weightSum="1"
+    android:baselineAligned="false">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:text="     Welcome!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView69"
+        android:textSize="24pt"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent4"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="72dp">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.05" />
+
+        <Button
+            android:layout_width="122dp"
+            android:id="@+id/bHomeRecordMeal"
+            android:layout_height="66dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/food"
+            android:layout_weight="0.02" />
+
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.05" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Record Meal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView40"
+        android:textAlignment="center" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/bHomeFriends"
+            android:layout_weight="1"
+            android:layout_height="100dp"
+            android:background="@drawable/friends" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/bHomeActivities"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:layout_height="100dp"
+            android:background="@drawable/activities_icons" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Friends"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView41"
+            android:layout_weight="1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:text="Activities"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView38"
+            android:layout_weight="1"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/bHomeStartWorkout"
+        android:background="@drawable/workoutbegin"
+        android:layout_height="127dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Begin Workout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView42"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <TextView
+        android:text="Help:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="This is your home screen. The place to quickly navigate to common areas! You can also use the menu button in the top left corner of this screen to navigate to more areas!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textAlignment="center" />
+
+</LinearLayout>

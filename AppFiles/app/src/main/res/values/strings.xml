@@ -1,0 +1,148 @@
+<resources>
+    <string name="app_name">WorkoutWithFriends</string>
+    <string name="title_activity_user_area">UserAreaActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- String array used for Recording a meal -->
+    <string-array name="Meals">
+        <item name="Breakfast">Breakfast</item>
+        <item name="Lunch">Lunch</item>
+        <item name="Dinner">Dinner</item>
+        <item name="Snack">Snack</item>
+    </string-array>
+
+    <string-array name="ExerciseTypes">
+        <item name="Stationary">Stationary</item>
+        <item name="Mobile">Mobile</item>
+    </string-array>
+
+    <string-array name="MuscleGroups">
+        <item name="Biceps">Biceps</item>
+        <item name="Back">Back</item>
+        <item name="Legs">Legs</item>
+        <item name="Delts">Delts</item>
+        <item name="Shoulders">Shoulders</item>
+        <item name="Chest">Chest</item>
+        <item name="Triceps">Triceps</item>
+        <item name="Abs">Abs</item>
+        <item name="Trapezius">Trapezius</item>
+        <item name="Run">Run</item>
+    </string-array>
+
+    <string-array name="Exercises">
+        <item name="None">None</item>
+        <item name="Aerobics, general">Aerobics, general</item>
+        <item name="Aerobics, high impact">Aerobics, high impact</item>
+        <item name="Aerobics, low impact">Aerobics, low impact</item>
+        <item name="Aerobics, step aerobics">Aerobics, step aerobics</item>
+        <item name="Archery">Archery</item>
+        <item name="Backpacking, Hiking with pack">Backpacking, Hiking with pack</item>
+        <item name="Badminton">Badminton</item>
+        <item name="Bagging grass, leaves">Bagging grass, leaves</item>
+        <item name="Bakery, light effort">Bakery, light effort</item>
+        <item name="Ballet, twist, jazz, tap">Ballet, twist, jazz, tap</item>
+        <item name="Ballroom dancing, fast">Ballroom dancing, fast</item>
+        <item name="Ballroom dancing, slow">Ballroom dancing, slow</item>
+        <item name="Basketball game, competitive">Basketball game, competitive</item>
+        <item name="Basketball, playing, non game">Basketball, playing, non game</item>
+        <item name="Basketball, shooting baskets">Basketball, shooting baskets</item>
+        <item name="Basketball, wheelchair">Basketball, wheelchair</item>
+        <item name="Bathing dog">Bathing dog</item>
+        <item name="Bird watching">Bird watching</item>
+        <item name="Boating, power, speed boat">Boating, power, speed boat</item>
+        <item name="Bowling">Bowling</item>
+        <item name="Boxing, in ring">Boxing, in ring</item>
+        <item name="Boxing, punching bag">Boxing, punching bag</item>
+        <item name="Boxing, sparring">Boxing, sparring</item>
+        <item name="Calisthenics, fast, pushups, situps...">Calisthenics, fast, pushups, situps...</item>
+        <item name="Calisthenics, light, pushups, situps...">Calisthenics, light, pushups, situps...</item>
+        <item name="Canoeing, camping trip">Canoeing, camping trip</item>
+        <item name="Canoeing, rowing, light">Canoeing, rowing, light</item>
+        <item name="Canoeing, rowing, moderate">Canoeing, rowing, moderate</item>
+        <item name="Canoeing, rowing, vigorous">Canoeing, rowing, vigorous</item>
+        <item name="Carpentry, general">Carpentry, general</item>
+        <item name="Carrying 16 to 24 lbs, upstairs">Carrying 16 to 24 lbs, upstairs</item>
+        <item name="Carrying 25 to 49 lbs, upstairs">Carrying 25 to 49 lbs, upstairs</item>
+        <item name="Carrying heavy loads">Carrying heavy loads</item>
+        <item name="Carrying infant, level ground">Carrying infant, level ground</item>
+        <item name="Carrying infant, upstairs">Carrying infant, upstairs</item>
+        <item name="Carrying moderate loads upstairs">Carrying moderate loads upstairs</item>
+        <item name="Carrying small children">Carrying small children</item>
+        <item name="Circuit training, minimal rest">Circuit training, minimal rest</item>
+        <item name="Cleaning gutters">Cleaning gutters</item>
+        <item name="Cleaning, dusting">Cleaning, dusting</item>
+        <item name="Climbing hills, carrying up to 9 lbs">Climbing hills, carrying up to 9 lbs</item>
+        <item name="Climbing hills, carrying 10 to 20 lb">Climbing hills, carrying 10 to 20 lb</item>
+        <item name="Climbing hills, carrying 21 to 42 lb">Climbing hills, carrying 21 to 42 lb</item>
+        <item name="Climbing hills, carrying over 42 lb">Climbing hills, carrying over 42 lb</item>
+        <item name="Coaching: football,basketball,soccer">Coaching: football,basketball,soccer</item>
+        <item name="Coal mining, general">Coal mining, general</item>
+        <item name="Construction, exterior, remodeling">Construction, exterior, remodeling</item>
+        <item name="Crew, sculling, rowing, competition">Crew, sculling, rowing, competition</item>
+        <item name="Cricket (batting, bowling)">Cricket (batting, bowling)</item>
+        <item name="Croquet">Croquet</item>
+        <item name="Cross country skiing, moderate">Cross country skiing, moderate</item>
+        <item name="Cross country skiing, racing">Cross country skiing, racing</item>
+        <item name="Cross country skiing, uphill">Cross country skiing, uphill</item>
+        <item name="Cross country skiing, vigorous">Cross country skiing, vigorous</item>
+        <item name="Cross country snow skiing, slow">Cross country snow skiing, slow</item>
+        <item name="Curling">Curling</item>
+        <item name="Cycling, less than 10mph, leisure bicycling">Cycling, less than 10mph, leisure bicycling </item>
+        <item name="Tennis">Tennis</item>
+        <item name="Cycling, less than 10mph, leisure bicycling">Cycling, less than 10mph, leisure bicycling</item>
+        <item name="Cycling, 10-11.9mph, light">Cycling, 10-11.9mph, light</item>
+        <item name="Cycling, 12-13.9mph, moderate">Cycling, 12-13.9mph, moderate</item>
+        <item name="Cycling, 14-15.9mph, vigorous">Cycling, 14-15.9mph, vigorous</item>
+        <item name="Cycling, 16-19mph, very fast, racing">Cycling, 16-19mph, very fast, racing</item>
+        <item name="Cycling, greater than 20mph, racing">Cycling, greater than 20mph, racing</item>
+        <item name="Cycling, mountain bike, bmx">Cycling, mountain bike, bmx</item>
+        <item name="Darts (wall or lawn)">Darts (wall or lawn)</item>
+        <item name="Diving, springboard or platform">Diving, springboard or platform</item>
+        <item name="Downhill snow skiing, moderate">Downhill snow skiing, moderate</item>
+        <item name="Downhill snow skiing, racing">Downhill snow skiing, racing</item>
+        <item name="Electrical work, plumbing">Electrical work, plumbing</item>
+        <item name="Farming, baling hay, cleaning barn">Farming, baling hay, cleaning barn</item>
+        <item name="Farming, chasing cattle on horseback">Farming, chasing cattle on horseback</item>
+        <item name="Farming, feeding horses or cattle">Farming, feeding horses or cattle</item>
+        <item name="Farming, feeding small animals">Farming, feeding small animals</item>
+        <item name="Farming, grooming animals">Farming, grooming animals</item>
+        <item name="Fencing">Fencing</item>
+        <item name="Fire fighter, climbing ladder, full gear">Fire fighter, climbing ladder, full gear</item>
+        <item name="Fire fighter, hauling hoses on ground">Fire fighter, hauling hoses on ground</item>
+        <item name="Fishing from boat, sitting">Fishing from boat, sitting</item>
+        <item name="Fishing from riverbank, standing">Fishing from riverbank, standing</item>
+        <item name="Fishing from riverbank, walking">Fishing from riverbank, walking</item>
+        <item name="Fishing in stream, in waders">Fishing in stream, in waders</item>
+        <item name="Fishing, general">Fishing, general</item>
+        <item name="Fishing, ice fishing">Fishing, ice fishing</item>
+        <item name="Flying airplane (pilot)">Flying airplane (pilot)</item>
+        <item name="Football or baseball, playing catch">Football or baseball, playing catch</item>
+        <item name="Football, competitive">Football, competitive</item>
+        <item name="Football, touch, flag, general">Football, touch, flag, general</item>
+        <item name="Forestry, ax chopping, fast">Forestry, ax chopping, fast</item>
+        <item name="Forestry, ax chopping, slow">Forestry, ax chopping, slow</item>
+        <item name="Forestry, carrying logs">Forestry, carrying logs</item>
+        <item name="Forestry, sawing by hand">Forestry, sawing by hand</item>
+        <item name="Forestry, trimming trees">Forestry, trimming trees</item>
+        <item name="Frisbee playing, general">Frisbee playing, general</item>
+        <item name="Frisbee, ultimate frisbee">Frisbee, ultimate frisbee</item>
+        <item name="Gardening, general">Gardening, general</item>
+        <item name="General cleaning">General cleaning</item>
+        <item name="Golf, driving range">Golf, driving range</item>
+        <item name="Golf, general">Golf, general</item>
+        <item name="Golf, miniature golf">Golf, miniature golf</item>
+        <item name="Golf, using power cart">Golf, using power cart</item>
+        <item name="Golf, walking and carrying clubs">Golf, walking and carrying clubs</item>
+        <item name="Golf, walking and pulling clubs">Golf, walking and pulling clubs</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_label">Search</string>
+    <string name="search_hint">Search Here</string>
+    <string name="title_activity_friends_list">FriendsListActivity</string>
+</resources>

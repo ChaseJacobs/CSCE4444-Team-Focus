@@ -1,0 +1,117 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.bhastings.workoutwithfriends.StatisticsFragment"
+    android:background="@drawable/weights_background"
+    android:backgroundTintMode="screen">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:id="@+id/textView2"
+            android:textAlignment="center"
+            android:textSize="36sp"
+            android:background="@drawable/stats"
+            android:elevation="1dp" />
+
+        <TextView
+            android:text="Your statistics are where you can see your progress and finess milestones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textAlignment="center" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="177dp"
+            app:srcCompat="@drawable/stats_image1"
+            android:id="@+id/imageView2"
+            android:layout_gravity="center_horizontal"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="119dp">
+
+            <Space
+                android:layout_height="wrap_content"
+                android:layout_weight="0.36"
+                android:layout_width="1dp" />
+
+            <Button
+                android:id="@+id/bDietStats"
+                android:layout_weight="0.99"
+                android:textAlignment="center"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="75dp"
+                android:background="@drawable/meal" />
+
+            <Space
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.12" />
+
+            <Button
+                android:id="@+id/bWorkoutStats"
+                android:layout_weight="1"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="75dp"
+                android:background="@drawable/flex" />
+
+            <Space
+                android:layout_height="wrap_content"
+                android:layout_weight="0.47"
+                android:layout_width="1dp" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="15dp">
+
+            <TextView
+                android:text="Diet Statistics"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView37"
+                android:layout_weight="1.27"
+                android:textAlignment="textEnd" />
+
+            <TextView
+                android:text="                     Workout Statistics"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView36"
+                android:layout_weight="1.19"
+                android:textAlignment="textStart" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+    </LinearLayout>
+</ScrollView>
